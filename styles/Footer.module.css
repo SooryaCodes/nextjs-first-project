@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(204, 204, 221, 0.719);
+  font-size: 1rem;
+}
+
+.name {
+  color: #4900f3;
+  font-weight: bold;
+}

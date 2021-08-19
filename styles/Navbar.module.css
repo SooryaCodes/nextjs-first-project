@@ -1,0 +1,31 @@
+.navbar {
+  margin: 0;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid rgba(204, 204, 221, 0.719);
+  display: flex;
+  align-items: center;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+    position: fixed;
+    top: 0;
+    background: #fff;
+}
+
+.logoContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navLinks {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
